@@ -58,7 +58,7 @@ login-box h2{
   height: auto;
   cursor: pointer;
 }
-
+ input::placeholder{color: #1a2f17;}
 .login-box .user-box input:hover {
   outline: 2px solid #199c08;
   border-radius: 20px;
