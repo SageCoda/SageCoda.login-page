@@ -6,7 +6,7 @@ body{
   margin: 33%;
   padding: 0%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-  background: #e2e6e7;
+  background: #9da8ab;
 }
 
 /* login-box {
@@ -37,11 +37,11 @@ login-box h2{
 }
 
 .login-box .user-box input {
-  text-shadow: #03d9e4;
+  text-shadow: #199c08;
   width: 100px;
   padding: 10px 0%;
   font-size: 16px;
-  color: #0793c6;
+  color: #0b2c06;
   margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid #fff;
@@ -60,9 +60,9 @@ login-box h2{
 }
 
 .login-box .user-box input:hover {
-  outline: 2px solid #03e9f4;
+  outline: 2px solid #199c08;
   border-radius: 20px;
-  box-shadow: 0 0 15px #03e9f4;
+  box-shadow: 0 0 15px #199c08;
   width: 200px;
   height: 18px;
   transition: width 0.5s;
@@ -92,7 +92,7 @@ login-box h2{
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: #03e9f4;
+  color: #199c08;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -105,12 +105,12 @@ login-box h2{
 /* coloring and glowing for login
 giving it a button like look as well */
 .login-box a:hover{
-  background: #03e8e8;
+  background: #199c08;
   color: #fff;
   border-radius: 20px;
-  box-shadow: 0 0 5px #03e9f4,
-  0 0 50px #03d9e4,
-  0 0 100px #03e9f4;
+  box-shadow: 0 0 5px #199c08,
+  0 0 50px #199c08,
+  0 0 100px #199c08;
 }
 
 .login-box a span{
@@ -125,7 +125,7 @@ login button */
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
+  background: linear-gradient(90deg, transparent, #199c08);
   animation: btn-anim1 1s linear infinite;
 }
 /* animation lets the horizontal line run
@@ -146,7 +146,7 @@ login button */
   right: -0%;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #03e9f4);
+  background: linear-gradient(180deg, transparent, #199c08);
   animation: btn-anim2 1s linear infinite;
   animation-delay: .25s;
 }
@@ -169,7 +169,7 @@ login button */
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #03e9f4);
+  background: linear-gradient(270deg, transparent, #199c08);
   animation: btn-anim3 1s linear infinite;
   animation-delay: .5s;
 }
@@ -192,7 +192,7 @@ login button */
   left: 0%;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #03e9f4);
+  background: linear-gradient(360deg, transparent, #199c08);
   animation: btn-anim4 1s linear infinite;
   animation-delay: .75s;
 }
