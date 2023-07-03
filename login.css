@@ -48,10 +48,14 @@ login-box h2{
   outline:none;
   background: transparent;
 }
-
+input{display: inline-block;}
 .login-box img {
+  display:inline-block;
+  background-color: #9da8ab;
+  margin-left:78px;
+  /* margin-left:110px; */
   position: absolute;
-  top: 50%;
+  top: 42%;
   left: 10px;
   transform: translateY(-50%);
   width: 20px;
